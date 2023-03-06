@@ -1,0 +1,52 @@
+        body {
+            background-color: teal;
+        }
+        
+        h1 {
+            position: relative;
+            color: cyan;
+            font-size: 50px;
+        }
+        
+        #add {
+            position: relative;
+            font-size: 40px;
+            width: 260px;
+            height: 60px;
+            border: 2px solid cyan;
+            background-color: purple;
+            border-radius: 5px;
+        }
+        
+        #throw {
+            position: relative;
+            font-size: 40px;
+            width: 290px;
+            height: 60px;
+            border: 2px solid purple;
+            border-radius: 5px;
+            background-color: cyan;
+        }
+        
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 600px;
+            margin: 0 auto;
+        }
+        
+        .de {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid purple;
+            border-radius: 5%;
+            width: 80px;
+            height: 80px;
+            font-size: 36px;
+            font-weight: bold;
+            margin: 20px;
+            cursor: pointer;
+        }
